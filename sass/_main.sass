@@ -220,6 +220,7 @@
     &:hover
       background-color: $red
       color: white
+      border: none
     div
       transform: skewX(30deg)  
   &_block
@@ -300,7 +301,6 @@
   &_block
     display: flex
     margin-top: 60px
-  &_avatar
   &_text
     text-align: left
     margin-left: 60px
@@ -318,7 +318,47 @@
       font-size: 16px
       font-weight: 300
 
-      
+.map
+  background: url('/img/map_bg_ua.png') center (center / cover) no-repeat
+  min-height: 630px
+  display: flex
+  justify-content: center
+  &_block
+    width: 460px
+    height: 270px
+    background-color: $red
+    color: white
+    display: flex
+    flex-direction: column
+    align-items: center
+  &_adress
+    font-size: 20px
+    line-height: 20px
+    font-weight: 500
+    margin-top: 50px
+  &_phone
+    font-size: 20px
+    line-height: 20px
+    font-weight: 700
+    margin-top: 36px
+  &_socials
+    margin-top: 36px
+    width: 212px
+    display: flex
+    justify-content: space-between
+    &_link
+      border-radius: 100%
+      &_circle
+        width: 52px
+        height: 52px
+        border: solid
+        border-radius: 100%
+        border-color: white
+        border-width: 2px
+        background-color: $red
+        display: flex
+        justify-content: center
+        align-items: center
     
   
 
